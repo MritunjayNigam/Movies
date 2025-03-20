@@ -91,6 +91,7 @@ iframe {
 
     .movie-list {
         padding: 10px 0;
+        gap: 20px;
     }
 
     h2 {
@@ -108,5 +109,6 @@ h1 {
         margin: auto;
         height: 255px;
         padding: 10px 0;
+        gap: 20px;
     }
 }

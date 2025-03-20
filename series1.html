@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">🎬 Watch Your Favorite Movies 🍿</h1>
+        <iframe id="movieFrame" allow="fullscreen" id="movieFrame"
+            style="display: none; border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+            allowfullscreen allow="autoplay; encrypted-media; picture-in-picture"
+            sandbox="allow-scripts allow-same-origin allow-popups" loading="lazy"></iframe>
+            <h2 id="title"></h2>
+        <div class="movie-list">
+            <div class="movie series" onclick="playSeries(1) ,seriesName(1)">🎥Movie 1</div>
+            <div class="movie series" onclick="playSeries(2) ,seriesName(2)">🎥 Movie 2</div>
+            <div class="movie series" onclick="playSeries(3) ,seriesName(3)">🎥 Movie 3</div>
+            <div class="movie series" onclick="playSeries(4) ,seriesName(4)">🎥 Movie 4</div>
+            <div class="movie series" onclick="playSeries(5) ,seriesName(5)">🎥 Movie 5</div>
+            <div class="movie series" onclick="playSeries(6) ,seriesName(6)">🎥 Movie 6</div>
+            <div class="movie series" onclick="playSeries(7) ,seriesName(7)">🎥 Movie 7</div>
+            <div class="movie series" onclick="playSeries(8) ,seriesName(8)">🎥 Movie 8</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

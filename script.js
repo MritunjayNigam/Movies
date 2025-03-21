@@ -49,7 +49,7 @@ function movie(){
         8:"",
         9:""
     }
-    const movieElements = document.querySelectorAll(".movie-list .movie");
+    const movieElements = document.querySelectorAll(".movie-list .check");
 
     movieElements.forEach((e,i)=>{
         i = i + 1;
@@ -130,25 +130,6 @@ function openHome(url){
     })
 }
 openHome()
-
-// function SeriesLink(){
-//     const url = {
-//         1 : "series.html",
-//         2 : "index.html",
-//         3 : "index.html"
-//     }
-
-//     const sub = document.querySelectorAll(".series-list .movies");
-
-//     sub.forEach((e,i)=>{
-//         let num = i+1;
-//         e.addEventListener("click", ()=>{
-//             window.location.href = url[num]
-//         })
-//     })
-
-// }
-// SeriesLink()
 
 function SeriesLink() {
     const url = {

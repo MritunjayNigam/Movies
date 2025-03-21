@@ -1,10 +1,12 @@
+console.log("hellow")
+
 
 //MOVIE URL
 function playMovie(id) {
     let url = {
         1:"https://drive.google.com/file/d/18erCJVQODbr5pJt75UUNYlWCAEeMi3bo/preview",
-        2:"",
-        3:"",
+        2:"https://drive.google.com/file/d/14ADfr1oP3wU4R_fSBhZ0qj18tcB1aTQl/preview",
+        3:"https://drive.google.com/file/d/1J2MDRNP-Mh8GVazP6TlGtypjjITfkG-L/preview",
         4:"",
         5:"",
         6:"",
@@ -21,8 +23,8 @@ function playMovie(id) {
 function movieName(id){
     let name = {
         1:"In Time",
-        2:"",
-        3:"",
+        2:"Smile 1 (2022) 720p Blueray",
+        3:"Smile 2 (2024) 720p HEVC",
         4:"",
         5:"",
         6:"",
@@ -38,8 +40,8 @@ function movieName(id){
 function movie(){
     let n ={
         1:"🎥 In Time",
-        2:"",
-        3:"",
+        2:"🎥 Smile 1",
+        3:"🎥 Smile 2",
         4:"",
         5:"",
         6:"",
